@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circleview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <locon.circularanimationview.CircularView
+                android:id="@+id/circle_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circleview:fill_color="@color/black"
+                circleview:outer_radius="50" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

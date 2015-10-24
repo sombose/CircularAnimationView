@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="circleview">
+        <attr name="inner_radius" format="integer" />
+        <attr name="outer_radius" format="integer" />
+        <attr name="fill_color" format="color" />
+        <attr name="blank_color" format="color" />
+        <attr name="angle_end" format="integer" />
+    </declare-styleable>
+</resources>
